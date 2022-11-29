@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ControlDesktopDomainModel.Service.ApiProvider.ApiMediator">
+    <Position X="27.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAIFAAgAggAAAABAAAA=</HashCode>
+      <FileName>Service\ApiProvider\ApiMediator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.ApiProvider.CommandListener" BaseTypeListCollapsed="true">
+    <Position X="31.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAACAIAAAAAA=</HashCode>
+      <FileName>Service\ApiProvider\Listener.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.ApiProvider.SingletonHttpClient">
+    <Position X="27.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\ApiProvider\SingletonHttpClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.ApiProvider.URIWrapper">
+    <Position X="29.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAIAAAAAAAAAAAACIBAAAAgAAAAABAAAA=</HashCode>
+      <FileName>Service\ApiProvider\URIWrapper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.Clipboard.Clipboard" BaseTypeListCollapsed="true">
+    <Position X="29.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAgA=</HashCode>
+      <FileName>Service\Clipboard\Clipboard.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.Commands.ChangeDirToChildCommand">
+    <Position X="9.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAIAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\Commands\ChangeDirToChildCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.Commands.ChangeDirToParentCommand">
+    <Position X="16.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAIAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\Commands\ChangeDirToParentCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.Commands.Command" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAIAQAAAAAAAQAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>Service\Commands\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.Commands.CommandManager">
+    <Position X="33" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAACAAQAAAAAAAQAAAAAAAAAAAAAEAAAAJA=</HashCode>
+      <FileName>Service\Commands\CommandManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.Commands.CopyCommand">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAIAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\Commands\CopyCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.Commands.CreateDirCommand">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAIAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\Commands\CreateDirCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.Commands.CreateFileCommand">
+    <Position X="11.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAIAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\Commands\CreateFileCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.Commands.DeleteCommand">
+    <Position X="18.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAIAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\Commands\DeleteCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.Commands.GetDrivesCommand">
+    <Position X="23" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\Commands\GetDrivesCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.Commands.GetStatusCommand">
+    <Position X="25.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\Commands\GetStatusCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.Commands.PasteCommand">
+    <Position X="2.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAIAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\Commands\PasteCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.Commands.SendFileCommand">
+    <Position X="7.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAIAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\Commands\SendFileCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.Commands.SetDriveCommand">
+    <Position X="14" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAIAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\Commands\SetDriveCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.Commands.ZipCommand">
+    <Position X="20.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAIAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\Commands\ZipCommand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.Configuration.ConfigurationManager">
+    <Position X="27.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAgAAAAAAAAAAAAAAAAAAAAYAAEIAAAEAAA=</HashCode>
+      <FileName>Service\ConfigurationManager\ConfigurationManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.FileSystem.DirectoryElement" BaseTypeListCollapsed="true">
+    <Position X="29.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAIAAAAAAAAAAAAQAAgEAAIAAAAgAAAAAgAA=</HashCode>
+      <FileName>Service\FileSystem\DirectoryElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.FileSystem.FileElement" BaseTypeListCollapsed="true">
+    <Position X="31.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAIAAAAAAAAAAAAQAAgEAAIAAEAAAAAAAgAA=</HashCode>
+      <FileName>Service\FileSystem\FileElement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.FileSystem.FileSystem" BaseTypeListCollapsed="true">
+    <Position X="33" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAggBAAAAIBAMAAEEAQACAQAAgEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\FileSystem\FileSystem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.View.MainService" BaseTypeListCollapsed="true">
+    <Position X="29.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAIIAAAAAAAAAAAAAAAEAAAAIA=</HashCode>
+      <FileName>Service\View\MainService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ControlDesktopDomainModel.Service.View.RegisterService" BaseTypeListCollapsed="true">
+    <Position X="33" Y="10" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Service\View\RegisterService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ControlDesktopDomainModel.GeneralSettings">
+    <Position X="27.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAgAAAAAAAAAIAAAAAABAAAYAAEIAAAEAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="ControlDesktopDomainModel.Service.ApiProvider.IListener">
+    <Position X="33" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Service\ApiProvider\IListener.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ControlDesktopDomainModel.Service.Clipboard.IClipboard">
+    <Position X="27.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAgA=</HashCode>
+      <FileName>Service\Clipboard\IClipboard.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ControlDesktopDomainModel.Service.FileSystem.IFileSystem">
+    <Position X="31.25" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAgBAAAAIBAMAAEEAQACAQAAgEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service\FileSystem\IFileSystem.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ControlDesktopDomainModel.Service.FileSystem.IFileSystemElement">
+    <Position X="31.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAIAAAAAAAAAAAAQAAgEAAIAAAAAAAAAAgAA=</HashCode>
+      <FileName>Service\FileSystem\IFileSystemElement.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ControlDesktopDomainModel.Service.View.IMainService">
+    <Position X="27.75" Y="15.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAEAAAAIA=</HashCode>
+      <FileName>Service\View\IMainService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ControlDesktopDomainModel.Service.View.IRegisterService">
+    <Position X="29.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Service\View\IRegisterService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
